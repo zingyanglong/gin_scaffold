@@ -45,7 +45,7 @@ func main() {
 	r := router.SetupRouter()
 	//6.启动服务
 	srv := &http.Server{
-		Addr:    ":8080",
+		Addr:    ":8086",
 		Handler: r,
 	}
 
